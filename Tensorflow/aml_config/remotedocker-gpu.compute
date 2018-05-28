@@ -1,0 +1,8 @@
+address: dsvmfwhtvpwfihcte.eastus.cloudapp.azure.com
+baseDockerImage: microsoft/mmlspark:plus-0.9.9
+nativeSharedDirectory: ~/.azureml/share/
+password: AzureMlSecret=remotedocker-gpu#eneros#1cf6e28611604d3ea88ba130e0568ce8
+sharedVolumes: true
+type: remotedocker
+userManagedEnvironment: false
+username: eneros
